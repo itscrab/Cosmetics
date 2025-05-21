@@ -1,0 +1,369 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="AssistantCoreSDKRuntime">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\AssistantCoreSDKRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Backtrace.Unity">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Backtrace.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="BakeryRuntimeAssembly">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\BakeryRuntimeAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Unity">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Fusion.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="modio.UnityPlugin">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\modio.UnityPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Oculus.Platform">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Oculus.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Oculus.VR">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Oculus.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonRealtime">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonRealtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking.Utilities">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonVoice.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.API">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonVoice.API.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.Fusion">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonVoice.Fusion.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.PUN">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PhotonVoice.PUN.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFab">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\PlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\System.EnterpriseServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Internals">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\System.ServiceModel.Internals.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Animation.Rigging.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.KdTree">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.ProBuilder.KdTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Poly2Tri">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.ProBuilder.Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Splines.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.XR.CoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.XR.Interaction.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenVR">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\crab's Notifier-20250521T220654Z-1-001\crab_s Notifier\crab_s Notifier\bin\Debug\netstandard2.1\websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
